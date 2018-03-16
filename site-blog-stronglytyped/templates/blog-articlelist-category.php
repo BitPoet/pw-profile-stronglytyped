@@ -1,5 +1,13 @@
 							<div id="content" class="8u 12u(mobile) important(mobile)">
 
+								<article class="box">
+									<header>
+										<h2><a href="#"><strong><?= $page->title ?></strong></a></h2>
+									</header>
+									<?= sprintf(_x("All blog entries in category '%s'", "blog"), $page->title) ?>
+								</article>
+
+								<!-- Posts -->
 <?php
 
 /**
@@ -14,14 +22,6 @@ foreach($blogposts as $blogpost)
 {
 		$blogts = $blogpost->getUnformatted("blog_date");
 ?>
-								<article class="box">
-									<header>
-										<h2><a href="#"><strong><?= $page->title ?></strong></a></h2>
-									</header>
-									<?= sprintf(_x("All blog entries in category '%s'", "blog"), $page->title) ?>
-								</article>
-
-							<!-- Posts -->
 
 								<article class="box post post-excerpt">
 									<header>
