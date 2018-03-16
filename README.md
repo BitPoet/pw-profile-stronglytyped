@@ -16,9 +16,9 @@ It requires ProcessWire version >= 3.0.82.
 
 To install it, download a fresh copy of ProcessWire from the [download page](https://processwire.com/download/) and extract it into your web server folder (either root or a subdirectory, though don't forget to edit your .htaccess after installation in the latter case).
 
-Download a [zipped copy of this repository](https://github.com/BitPoet/pw-profile-striped/archive/master.zip) and extract the site-blog-striped folder into the ProcessWire installation's root folder.
+Download a [zipped copy of this repository](https://github.com/BitPoet/pw-profile-stronglytyped/archive/master.zip) and extract the site-blog-stronglytyped folder into the ProcessWire installation's root folder.
 
-Point your web browser at the url of your installation and follow the wizard. Select "Striped Travel Blog Template (Responsive)" when prompted to select a profile.
+Point your web browser at the url of your installation and follow the wizard. Select "Strongly Typed Travel Blog Template (Responsive)" when prompted to select a profile.
 
 ## Setting up your blog
 
